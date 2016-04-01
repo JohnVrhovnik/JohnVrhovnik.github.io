@@ -65,6 +65,17 @@
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
 /* fonts */
 h2 {
   font-family: 'geomanistmedium', 'helvetica', 'arial', sans-serif;
