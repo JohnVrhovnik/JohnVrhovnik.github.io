@@ -68,12 +68,14 @@
 
 .site {
   display: flex;
-  min-height: 100vh;
+  min-height: 85vh;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .site-content {
   flex: 1;
+
 }
 
 /* fonts */
