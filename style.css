@@ -82,6 +82,8 @@
 
 h1 {
   font-family: 'leitura_newsroman_4', 'Times New Roman', serif;
+  line-height: 1em;
+  font-size: 1.5em;
 }
 
 h2 {
@@ -232,6 +234,9 @@ nav[role=navigation] li a {
 
 
 @media screen and (min-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
   h2 {
     font-size: 1.8em;
   }
