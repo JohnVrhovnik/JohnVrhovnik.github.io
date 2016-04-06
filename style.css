@@ -77,6 +77,11 @@
 }
 
 /* fonts */
+
+h1 {
+  font-family: 'leitura_newsroman_4', 'Times New Roman', serif;
+}
+
 h2 {
   font-family: 'geomanistmedium', 'helvetica', 'arial', sans-serif;
   line-height: 1.2em;
