@@ -140,6 +140,26 @@ nav a {
   text-decoration: none;
 }
 
+/* .subjectdesc {
+  padding: 1em 0 .5em 0;
+}
+
+@media screen and (min-width: 800px) {
+  .subjectdesc {
+    max-width: 80%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 215px;
+    column-width: 215px;
+    -webkit-column-span: 1;
+    column-span: 1;
+  }
+}
+*/
+
+
+
 
 
 a.menu-link {
@@ -185,7 +205,7 @@ nav[role=navigation].active {
 			max-height: 20em;
       text-align: center;
       font-size: 1.1em;
-      background-color: rgb(255,235,150);
+      background-color: rgb(118,180,216);
       margin: -1.5em -3em 1.5em -3em;
       padding-bottom: 1em;
 }
@@ -250,7 +270,7 @@ nav[role=navigation] li a {
     font-size: 1.85em;
   }
   dd, p {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
   header {
     margin: 1.5em 2.1em !important;
@@ -274,7 +294,7 @@ nav[role=navigation] li a {
     font-size: 2em;
   }
   dd, p {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   header {
     margin: 1.5em 2.6em !important;
@@ -302,7 +322,7 @@ nav[role=navigation] li a {
     font-size: 2.15em;
   }
   dd, p {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 }
 
@@ -357,5 +377,10 @@ hr{
 
 
 footer {
-  background-color: rgb(255,235,150);
+  background-color: rgb(118,180,216);
 }
+
+/* colors
+  background-color: rgb(255,235,150);
+  background-color: rgb(118,180,216);
+  background-color: rgb(); */
