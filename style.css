@@ -205,7 +205,7 @@ nav[role=navigation].active {
 			max-height: 20em;
       text-align: center;
       font-size: 1.1em;
-      background-color: rgb(118,180,216);
+      background-color: rgb(255,166,205);
       margin: -1.5em -3em 1.5em -3em;
       padding-bottom: 1em;
 }
@@ -377,10 +377,10 @@ hr{
 
 
 footer {
-  background-color: rgb(118,180,216);
+  background-color: rgb(255,166,205);
 }
 
 /* colors
   background-color: rgb(255,235,150);
   background-color: rgb(118,180,216);
-  background-color: rgb(); */
+  background-color: rgb(255,166,205); */
