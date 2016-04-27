@@ -91,6 +91,12 @@ h2 {
   line-height: 1.2em;
 }
 
+h3 {
+  font-family: 'geomanistmedium', 'helvetica', 'arial', sans-serif;
+  line-height: 1.2em;
+  font-size: 2.2em;
+}
+
 .subject_a, .subject_c {
   font-size: 3em;
   line-height: 1.1em;
@@ -140,23 +146,65 @@ nav a {
   text-decoration: none;
 }
 
-/* .subjectdesc {
-  padding: 1em 0 .5em 0;
+
+.resp {
+  background-color: rgb(255,235,150);
 }
 
-@media screen and (min-width: 800px) {
-  .subjectdesc {
-    max-width: 80%;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    -webkit-column-width: 215px;
-    column-width: 215px;
-    -webkit-column-span: 1;
-    column-span: 1;
-  }
+.respcont {
+  background-color: rgb(255,235,150);
+  padding: 1.5em;
 }
-*/
+
+
+
+.flickity-page-dots {
+  display: none;
+}
+
+.flickity-prev-next-button {
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  top: -35px;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: black;
+}
+.flickity-prev-next-button.no-svg {
+  color: black;
+}
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+.flickity-prev-next-button.previous {
+  right: 65px;
+  left: inherit;
+}
+.flickity-prev-next-button.next {
+  right: 10px;
+}
+
+
+/* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
+.carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
+.carousel-cell {
+    width: 100%;
+}
+
+.carousel-cell img {
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -250,6 +298,17 @@ nav[role=navigation] li a {
       nav a {
         margin-top: .6em;
       }
+
+      .sum {
+        float: left;
+        width: 47%;
+        margin-right: 3%;
+      }
+      .sumdiv {
+        overflow: auto;
+        zoom: 1;
+        max-width: 1000px;
+      }
 }
 
 
@@ -259,6 +318,9 @@ nav[role=navigation] li a {
   }
   h2 {
     font-size: 1.8em;
+  }
+  h3 {
+    font-size: 2.6em;
   }
   .subject_a, .subject_c {
     font-size: 3.7em;
@@ -275,7 +337,7 @@ nav[role=navigation] li a {
   header {
     margin: 1.5em 2.1em !important;
   }
-  main, .footercont {
+  main, .footercont, .respcont {
     padding: 2.1em !important;
   }
 }
@@ -283,6 +345,9 @@ nav[role=navigation] li a {
 @media screen and (min-width: 800px) {
   h2 {
     font-size: 2.1em;
+  }
+  h3 {
+    font-size: 3.1em;
   }
   .subject_a, .subject_c {
     font-size: 4.1em;
@@ -299,7 +364,7 @@ nav[role=navigation] li a {
   header {
     margin: 1.5em 2.6em !important;
   }
-  main, .footercont {
+  main, .footercont, .respcont {
     padding: 2.6em !important;
   }
   nav {
@@ -311,6 +376,9 @@ nav[role=navigation] li a {
 @media screen and (min-width: 1000px) {
   h2 {
     font-size: 2.4em;
+  }
+  h3 {
+    font-size: 3.6em;
   }
   .subject_a, .subject_c {
     font-size: 5em;
@@ -331,7 +399,7 @@ main {
 }
 
 
-header, main, .footercont {
+header, main, .footercont, .respcont {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -347,6 +415,14 @@ header {
   margin: 1.5em;
   position: relative;
 }
+
+.sumdiv {
+  padding-top: .5em;
+}
+
+
+
+
 
 .footercont {
   padding: 1.5em;
