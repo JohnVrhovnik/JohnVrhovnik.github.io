@@ -95,6 +95,7 @@ h3 {
   font-family: 'geomanistmedium', 'helvetica', 'arial', sans-serif;
   line-height: 1.2em;
   font-size: 2.2em;
+  padding: 0 .1em 0 .1em;
 }
 
 .subject_a, .subject_c {
@@ -147,13 +148,22 @@ nav a {
 }
 
 
-.resp {
+.respA {
   background-color: rgb(255,235,150);
+}
+.respB {
+  background-color: rgb(118,180,216);
+}
+.respC {
+  background-color: rgb(255,175,205);
 }
 
 .respcont {
-  background-color: rgb(255,235,150);
   padding: 1.5em;
+}
+
+.carousel {
+  margin: 0 -.2em 0 -.2em;
 }
 
 
