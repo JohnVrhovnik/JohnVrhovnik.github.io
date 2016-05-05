@@ -80,6 +80,10 @@
 
 /* fonts */
 
+p {
+  line-height: 1.4em;
+}
+
 h1 {
   font-family: 'leitura_newsroman_4', 'Times New Roman', serif;
   line-height: 1.2em;
@@ -145,6 +149,14 @@ nav a {
   font-size: 1.2em;
   margin-top: .8em;
   text-decoration: none;
+}
+
+.sum a {
+  text-decoration: none;
+}
+
+a:hover {
+    color: rgb(66,66,66);
 }
 
 
@@ -317,7 +329,6 @@ nav[role=navigation] li a {
       .sumdiv {
         overflow: auto;
         zoom: 1;
-        max-width: 1000px;
       }
 }
 
@@ -342,7 +353,7 @@ nav[role=navigation] li a {
     font-size: 1.85em;
   }
   dd, p {
-    font-size: 1.3em;
+    font-size: 1.15em;
   }
   header {
     margin: 1.5em 2.1em !important;
@@ -369,7 +380,7 @@ nav[role=navigation] li a {
     font-size: 2em;
   }
   dd, p {
-    font-size: 1.4em;
+    font-size: 1.25em;
   }
   header {
     margin: 1.5em 2.6em !important;
@@ -380,6 +391,9 @@ nav[role=navigation] li a {
   nav {
     float: right;
     width: 65%;
+  }
+  .photos {
+    padding: 3em;
   }
 }
 
@@ -400,7 +414,13 @@ nav[role=navigation] li a {
     font-size: 2.15em;
   }
   dd, p {
-    font-size: 1.5em;
+    font-size: 1.35em;
+  }
+  .photos {
+    padding: 6em;
+  }
+  figcaption {
+    font-size: 1.2em;
   }
 }
 
@@ -430,7 +450,16 @@ header {
   padding-top: .5em;
 }
 
+.photo {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
 
+.photos {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 
 
 
