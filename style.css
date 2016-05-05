@@ -321,12 +321,12 @@ nav[role=navigation] li a {
         margin-top: .6em;
       }
 
-      .sum {
+      .sum, .det {
         float: left;
         width: 47%;
         margin-right: 3%;
       }
-      .sumdiv {
+      .sumdiv, .info {
         overflow: auto;
         zoom: 1;
       }
