@@ -364,6 +364,9 @@ nav[role=navigation] li a {
 }
 
 @media screen and (min-width: 800px) {
+  h1 {
+    font-size: 2.25em;
+  }
   h2 {
     font-size: 2.1em;
   }
@@ -395,6 +398,9 @@ nav[role=navigation] li a {
 }
 
 @media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 2.5em;
+  }
   h2 {
     font-size: 2.4em;
   }
