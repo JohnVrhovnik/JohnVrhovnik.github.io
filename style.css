@@ -188,7 +188,7 @@ a:hover {
   width: 60px;
   height: 60px;
   background: transparent;
-  top: -35px;
+  top: -3em;
 }
 .flickity-prev-next-button:hover {
   background: transparent;
@@ -361,6 +361,9 @@ nav[role=navigation] li a {
   main, .footercont, .respcont {
     padding: 2.1em !important;
   }
+  .flickity-prev-next-button {
+    top: -4em;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -394,6 +397,9 @@ nav[role=navigation] li a {
   nav {
     float: right;
     width: 65%;
+  }
+  .flickity-prev-next-button {
+    top: -4.5em;
   }
 }
 
